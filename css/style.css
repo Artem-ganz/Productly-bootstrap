@@ -1,0 +1,239 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    font-family: 'montserrat';
+}
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    margin: 0 0 30px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+    margin: 0 0 20px;
+}
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin: 0 0 16px;
+}
+p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    margin: 0 0 30px;
+}
+a {
+    transition: color ease-in-out 0.3s;
+}
+
+/*btn*/
+.btn {
+    background-color: #FF9900;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px;
+    display: inline-block;
+    width: 180px;
+    text-decoration: none;
+    border: 1px solid #FF9900;
+    transition: all ease-in-out 0.3s;
+    font-family: 'poppins';
+}
+.btn.btn-small {
+     width: 110px;
+     padding: 9px;
+     font-weight: 600;
+}
+.btn.btn-transparent {
+    width: 110px;
+    padding: 9px;
+    background-color: #FFFFFF;
+    color: #2F281E;
+    border-color: #BCD0E5;
+    font-weight: 600;
+}
+.btn.btn-transparent:hover {
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+    color: #FFFFFF;
+}
+.btn:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    color: #2F281E;
+}
+.btn-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 -16px;
+}
+.header .btn-item {
+    display: inline-block;
+    padding: 0 16px;
+    margin-right: -3px;
+}
+
+/*nav*/
+.nav {
+    text-align: center;
+}
+.nav-list {
+    list-style: none;
+    padding: 9px 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.nav-item {
+    padding: 0 10px;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+    text-decoration: none;
+}
+.nav-item.ative,
+.nav-link:hover {
+    color: #FF9900;
+}
+
+/*header*/
+.header {
+    padding: 17px 0;
+}
+/* .header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/*hero-section*/
+.hero-section {
+    padding: 70px 0 0;
+    margin-bottom: 100px;
+}
+
+.hero-section .hero-text {
+    height: 110px;
+    padding-top: 100px;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.hero-section .img-holder {
+    max-width: 100%;
+    display: block;
+}
+
+.hero-section .text-holder p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 20px;
+}
+
+/*desing-tools*/
+.desing-tools {
+    margin: 0 0 100px;
+    padding: 0 0 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.desing-tools .title-holder {
+    text-align: center;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.desing-tools .row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.desing-tools .row [class^="col-"] {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.desing-tools .icon-holder {
+    padding-bottom: 30px;
+}
+
+.desing-tools .btn-holder {
+    text-align: center;
+}
+
+/*design-section*/
+.design-section {
+    margin-bottom: 100px;
+}
+.design-section .img-holder {
+    max-width: 562px;
+}
+.design-section .text-col {
+    padding-left: 125px;
+    padding-top: 20px;
+}
+.design-section .text-col h2 {
+    margin-bottom: 20px;
+}
+.design-section .text-holder strong {
+    margin-bottom: 10px;
+    display: block;
+}
+.design-section .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.design-section:nth-child(odd) .container {
+    flex-direction: row-reverse;
+}
+.design-section:nth-child(odd) .text-col {
+    padding-right: 113px;
+}
+/* not work nth-child?? */
+
+
+
+
+
+
+
+
+
+
+
+
